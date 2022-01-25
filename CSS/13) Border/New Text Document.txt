@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+
+<title>   Text  </title>
+    <style>
+	
+	h1,h2,h3{
+	border-width:5px;
+	border-color:green;
+    border-style:solid;
+	width:250px;
+	border-radius:10px;
+	}
+	
+	
+	</style>
+
+ </head>
+
+
+    <body>
+	  
+	  <h1 > Bangladesh1</h1>
+	  <h2 > Bangladesh2</h2>
+	  <h3 > Bangladesh3</h3>
+   </body>
+
+   
+</html>

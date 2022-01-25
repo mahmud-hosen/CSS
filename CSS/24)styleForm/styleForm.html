@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        input[type=text] {
+            font-size: 1rem;
+            width: 100%;
+            padding: 10px 20px;
+            margin: 20px 0px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 2px solid salmon;
+            background-color: rgb(227, 236, 227);
+        }
+
+        input[type=button] {
+            margin-left: 20px;
+            width: 100px;
+            padding: 10px;
+            border: none;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+
+        }
+
+        #submittBtn:focus {
+            background-color: rgb(200, 124, 1);
+        }
+
+
+        #search {
+            background-image: url(img/icons8-search-24.png);
+            background-repeat: no-repeat;
+
+            padding: 10px 50px;
+            background-position: 15px;
+            width: 200px;
+            transition: width 0.5s ease-in-out;
+
+        }
+
+        #search:focus {
+            background-color: rgb(230, 220, 88);
+            width: 50%;
+
+        }
+
+        textarea {
+            margin: 10px;
+            height: 200px;
+            width: 300px;
+            resize: none;
+        }
+
+        #textareaBackground {
+            background-color: rgb(36, 26, 165);
+            box-sizing: border-box;
+            padding: 20px;
+            color: rgb(253, 253, 253);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+        }
+
+        select {
+            margin: 50px;
+            width: 200px;
+            padding: 10px;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <label>First Name</label>
+    <input type="text" name="fname" id="fname">
+
+    <label>Last Name</label>
+    <input type="text" name="lname" id="lname">
+
+    <label>Search</label>
+    <br>
+    <input type="text" name="search" id="search" placeholder="Search">
+
+    <br>
+    <input type="button" id="submittBtn" value="Submit">
+    <br>
+    <textarea name="" id="textareaBackground" placeholder="Write Your Message"></textarea>
+    <br>
+    <select>
+        <option value="">Jamal</option>
+        <option value="">Kamal</option>
+        <option value="">Moly</option>
+        <option value="">Habib</option>
+        <option value="">Rahim</option>
+
+    </select>
+
+
+</body>
+
+</html>

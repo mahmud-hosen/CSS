@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         * {
+        margin: 0px;
+        padding: 0px;
+    }
+        .student_grade_sheet {
+            margin-left: 20px;
+            background-color: bisque;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .studentName {
+            text-align: center;
+            padding: 7px;
+            border: 1px solid black;
+            width: 170px;
+            border-radius: 4px;
+            font-weight: bold;
+
+
+        }
+        th{
+            color: rgb(0, 0, 0);
+            background-color: #cea46d;
+        }
+
+        .Q-count{
+            padding: 20px 40px;
+            border-radius: 6px;
+        }
+        /* nav */
+        /* Main Nav */
+nav{
+    background-color: #ccc8c4;
+    height: 60px;
+   
+}
+
+.main-nav{
+    float: right;
+     margin-top: 20px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-right: 25px;
+
+}
+
+.main-nav li a{
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+
+}
+
+
+ul li{
+    list-style-type: none;
+}
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="row">
+        
+                <ul class="main-nav">
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">WORK</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+     </header>
+
+
+
+
+
+    <div class="student_grade_sheet">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th class="coursework_title">
+                        <select class='Q-count'>
+                            <option class="selectoption" selected value='quizAvg'>Q-Avg</option>
+                            <option class="selectoption" value='quizMax'>Q-Best</option>
+                            <option class="selectoption" value='quizBest2'>Q-Best2</option>
+                        </select>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> <input type="text" class="studentName" value="Jamal Hossain"></td>
+                    <td> <input type="text" value="20"></td>
+
+                    <td> <input type="text" value="Jamal@gmail.com"></td>
+
+                </tr>
+
+                <tr>
+                    <td> <input type="text" class="studentName" value=" Hossain"></td>
+                    <td> <input type="text" value="20"></td>
+
+                    <td> <input type="text" value="Jamal@gmail.com"></td>
+
+                </tr>
+
+                <tr>
+                    <td> <input type="text" class="studentName" value="Moly"></td>
+                    <td> <input type="text" value="20"></td>
+
+                    <td> <input type="text" value="Jamal@gmail.com"></td>
+
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+</body>
+
+</html>

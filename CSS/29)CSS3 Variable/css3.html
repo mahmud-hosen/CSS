@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        :root{
+            --color1:red;
+            --color2:green;
+        }
+
+        div {
+            height: 250px;
+            width: 250px;
+        }
+
+        .div1 {
+            background-color:var(--color1);
+            position: absolute;
+            z-index: 1;
+
+
+
+        }
+
+        .div2 {
+            background-color: var(--color2);
+            position: absolute;
+            margin-left: 90px;
+            margin-top: 90px;
+            z-index: 2;
+
+
+
+        }
+
+        @media screen and (max-width: 600px){
+              :root{
+            --color1:black;
+            --color2:red;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+
+
+    </div>
+    <div class="div2">
+    </div>
+
+
+
+
+
+</body>
+
+</html>

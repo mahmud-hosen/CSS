@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Document </title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+  
+  <div>
+      <span>   This is a text </span>
+	  <span>   This is a text </span>
+	  <span>   This is a text </span>
+	  
+  <div>
+  
+     <h1> THIS IS H1 </h1>
+	 <h2>  THIS IS H2 <h2>
+	 
+   <div class="e1" >
+          Hi  how are you . Tell me about python Hi  how are you . Tell me about python Hi  how are you . Tell me about python 
+  </div>
+  <br>
+  <div class="e2">
+       Hi  how are you . Tell me about python .Hi  how are you . Tell me about python Hi  how are you . Tell me about python 
+		  
+   </div>
+  
+  
+  
+  
+	 
+	 
+	 
+	 
+	 
+  
+  
+  </body>
+  
+  </html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .demo1 p:first-child {
+            background-color: rgb(130, 9, 243);
+        }
+
+        .demo1 p:last-child {
+            background-color: rgb(204, 7, 7);
+        }
+
+        .demo h3:last-child {
+            background-color: rgb(1, 167, 1);
+        }
+
+        .demo2 h3:nth-child(2) {
+            background-color: rgb(110, 0, 173);
+        }
+
+        .demo3 h3:nth-child(2n+1) {
+            background-color: aqua;
+        }
+
+        /* Sudo Element */
+        h1::first-letter {
+            color: rgb(233, 113, 0);
+            font-size: 60px;
+        }
+         h5::first-line {
+            color: rgb(233, 113, 0);
+            
+        }
+        h1::selection{
+            background-color: rgb(226, 43, 52);
+        }
+
+        .demo4::before{
+            content: '';
+            height: 20px;
+            width: 500px;
+            background-color: black;
+            display: inline-block;
+
+        }
+         .demo4::after{
+            content: '';
+            height: 20px;
+            width: 500px;
+            background-color: black;
+            display: inline-block;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sudo Class -->
+
+    <div class="demo1">
+        <p>My name is mahmud</p>
+        <p>Hi, This is kamal.</p>
+
+        <p>Do you have any idea:?</p>
+        <p>Yeah, I am going to dhaka.</p>
+    </div>
+
+    <div class="demo">
+        <h3>My name is mahmud</h3>
+        <h3>Hi, This is kamal.</h3>
+
+        <h3>Do you have any idea:?</h3>
+    </div>
+
+    <div class="demo2">
+        <h3>My name is mahmud</h3>
+        <h3>Hi, This is kamal.</h3>
+
+        <h3>Do you have any idea:?</h3>
+    </div>
+
+
+    <div class="demo3">
+        <h3>My name is mahmud</h3>
+        <h3>Hi, This is kamal.</h3>
+
+        <h3>Do you have any idea:?</h3>
+        <h3>My name is mahmud</h3>
+        <h3>Hi, This is kamal.</h3>
+
+        <h3>Do you have any idea:?</h3>
+    </div>
+
+    <!-- Sudo Element -->
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dicta, necessitatibus sit sed delectus illum
+        dolorum nobis saepe excepturi consequuntur quis eaque, dolor, velit distinctio modi assumenda numquam laboriosam
+        harum.</h1>
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dicta, necessitatibus sit sed delectus illum
+        dolorum
+        nobis saepe excepturi consequuntur quis eaque, dolor, velit distinctio modi assumenda numquam laboriosam harum.
+    </h5>
+
+    <!-- Before after -->
+    <div class="demo4">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta dolor doloribus aperiam dignissimos culpa porro animi vero cum sequi reiciendis nam explicabo esse, quia laudantium, suscipit eligendi maxime, eveniet sint.</p>
+    </div>
+
+
+
+</body>
+
+</html>

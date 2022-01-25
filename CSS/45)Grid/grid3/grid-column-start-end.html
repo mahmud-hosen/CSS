@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .grid-contain {
+
+            display: grid;
+            /* Column number  */
+            grid-template-columns: auto auto auto;
+
+            /* Rows  Hign 1st 2nd 3rd*/
+            grid-template-rows: 100px 120px 150px;
+            background-color: black;
+            /* justify-content: center; */
+            
+
+        }
+
+        .grid-contain>div {
+            margin: 2px;
+            background-color: rgb(49, 141, 184);
+
+            padding: 30px;
+            text-align: center;
+        }
+        .item1{
+            /* It like span */
+            grid-column: 1 / span 2;
+            
+            /* grid-column-start: 1;
+            grid-column-end: 4; */
+
+            grid-row: 1 / span 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-contain">
+        <div class="item1">1</div>
+        <div class="div">2</div>
+        <div class="div">3</div>
+        <div class="div">4</div>
+        <div class="div">5</div>
+        <div class="div">6</div>
+        <div class="div">7</div>
+        <div class="div">8</div>
+        <div class="div">9</div>
+        <div class="div">10</div>
+        <div class="div">11</div>
+        <div class="div">12</div>
+        <div class="div">13</div>
+
+    </div>
+</body>
+
+</html>

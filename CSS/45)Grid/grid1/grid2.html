@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        [class*="col-"] {
+            float: left;
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .header {
+            background-color: aqua;
+            height: 100px;
+        }
+
+        .leftside {
+            background-color: rgb(27, 187, 21);
+            height: 400px;
+        }
+
+        .main {
+            background-color: rgb(21, 73, 187);
+            height: 400px;
+        }
+
+        .footer {
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+            height: 50px;
+        }
+      
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12 header">
+                Header
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 leftside">
+                Left Sideber
+
+            </div>
+            <div class="col-10 main">
+                Main
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 footer">
+                Footer
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

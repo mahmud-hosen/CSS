@@ -1,0 +1,30 @@
+span{
+	
+	background-color:green;
+	display:inline;
+	
+}
+
+
+.e1{
+	
+	
+	width:700px;
+	margin auto;
+	border: 3px solid green;
+	
+	
+	
+}
+
+
+.e2{
+	
+	
+	max-width:700px;
+	margin auto;
+	border: 3px solid green;
+	
+	
+	
+}

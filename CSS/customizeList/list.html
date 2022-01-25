@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+   
+   
+   <style>
+        .course-list {
+            background-color: rgb(230, 215, 130);
+            padding: 30px;
+
+        }
+
+        .course-list li {
+            color: rgb(226, 19, 36);
+            list-style-type: square;
+            list-style-position: inside;
+           
+
+        }
+
+
+                /* list1 */
+                
+        .course-list1 {
+            background-color: rgb(26, 104, 194);
+            padding: 30px;
+
+        }
+        .course-list1 li{
+            list-style-type: none;
+        }
+
+        .course-list1 li {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+
+        }
+        .course-list1 li::before{
+            content: '\f14a';
+            font-family: 'Font Awesome 5 Free';
+            font-weight: bold;
+            display: inline-block;
+          /* top right bottom left  */
+            margin: 5px 40px 5px 1px;
+            
+            font-size: 20px;
+            color: rgb(227, 231, 7);
+            
+        }
+
+
+        /* List 2 */
+        .course-list2 {
+            background-color: rgb(155, 158, 154);
+            padding: 30px;
+
+        }
+        .course-list2 li{
+            list-style-type: none;
+          
+        }
+        .course-list2 ul{
+            list-style-image: url(check.png);
+            list-style-position: inside;
+            
+            
+        }
+        .course-list2 li::before{
+           content: '';
+            display: inline-block;
+            margin: 5px 20px 5px 1px;
+            padding: 5px;
+           
+          
+           
+            
+        }
+
+        
+       
+    </style>
+</head>
+
+<body>
+    <div class="course-list">
+        <h1>List Item </h1>
+        <ul>
+            <li>PHP</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>C+</li>
+        </ul>
+    </div>
+
+    <div class="course-list1">
+        <h1>List Item 1</h1>
+        <ul>
+            <li>PHP</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>C+</li>
+        </ul>
+    </div>
+
+
+    <div class="course-list2">
+        <h1>List Item 1</h1>
+        <ul>
+            <li>PHP</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>C+</li>
+        </ul>
+    </div>
+
+
+
+</body>
+
+</html>

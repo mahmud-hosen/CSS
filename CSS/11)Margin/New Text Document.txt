@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+
+<title>   Text  </title>
+    <style>
+	
+	#section1{
+	margin:10px;
+	width:200px;
+	background-color:green;
+	}
+	
+	#section2{
+	width:200px;
+	background-color:red;
+	}
+	
+	
+	
+	
+	</style>
+
+ </head>
+
+
+    <body>
+	
+	
+	<div id="section1"  >
+	  <h1 > Bangladesh</h1>
+	  
+	</div>
+	
+	
+	
+	<div id="section2" >
+	<h1 > Finland</h1>
+	  
+	 
+	</div>
+	
+	
+	
+   
+
+   </body>
+
+   
+</html>

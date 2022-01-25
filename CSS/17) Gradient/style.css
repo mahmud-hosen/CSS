@@ -1,0 +1,14 @@
+.gradient-style{
+	
+	
+	
+	
+	height:500px;
+	width:100%;
+	background-image:radial-gradient(circle,red,green,yellow,orange,black,blue,white,red,green,yellow,orange,black,blue,white,red,green,
+	yellow,orange,black,blue,white,red,green,yellow,orange,black,blue,white,
+	red,green,yellow,orange,black,blue,white,red,green,yellow,orange,black,blue,
+	white,red,green,yellow,orange,black);
+	
+
+}

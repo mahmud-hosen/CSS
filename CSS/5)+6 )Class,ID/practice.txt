@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="code.css" >
+	<style>
+	
+	
+	.h1{
+    color:red;
+}
+
+.h2{
+
+    color: yellow;
+}
+
+.h3{
+    color: rgb(19, 21, 139);
+}
+.h4{
+    color: purple;
+}
+
+
+
+#s1{
+    background-color: green;
+    text-align: center;
+}
+
+.h5{
+    color: black;
+}
+.h6{
+    color: aliceblue;
+}
+
+		
+	</style>
+</head>
+<body>
+
+
+
+	<h1 class="h1" >Hi</h1>
+
+	<h2 class="h2" >My name is mahmud</h2>
+
+	<h1 class="h3">sakib</h1>
+
+	<h1 class="h4">Trisha</h1>
+
+<div id="s1">
+
+	<h1 class="h5">Except for small higher areas of jungle-covered old alluvium . </h1>
+	<h1 class="h6" >The effect depends on the border-color value.</h1>
+
+
+
+</div>
+	
+	
+
+
+
+</body>
+</html>
